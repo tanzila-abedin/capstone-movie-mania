@@ -1,4 +1,4 @@
-# REACT AND REDUX CAPSTONE : Movie Mania 
+# REACT AND REDUX CAPSTONE : Catelogue of Statistics
 
 Click here to view live[ Movie  Mania](https://tanzila-movie-mania.herokuapp.com/).
 
