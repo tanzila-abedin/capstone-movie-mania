@@ -4,6 +4,7 @@ import MovieList from '../Containers/MovieList';
 import Navigate from './navigate';
 
 import SingleMovie from '../Containers/singleMovie';
+import Footer from './footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </Route>
         <Route path="/singleMovie/:id" element={<SingleMovie />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
