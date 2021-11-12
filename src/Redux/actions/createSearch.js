@@ -36,7 +36,7 @@ const fetchMovies = () => (dispatch) => {
 
 const fetchMovie = (id) => (dispatch) => {
   dispatch(fetchMoviesRequest);
-  const url = (`https://imdb-api.com/en/API/Ratings/k_saglkr13/${id}`);
+  const url = (`https://imdb-api.com/en/API/Title/k_saglkr13/${id}/Ratings`);
   axios.get(url).then((response) => {
     const movie = response.data;
     dispatch(fetchMovieDetail(movie));
