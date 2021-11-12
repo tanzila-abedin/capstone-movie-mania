@@ -7,7 +7,6 @@ import MovieCard from '../Components/MovieCard';
 
 const MovieList = () => {
   const { movies } = useSelector((state) => state);
-  console.log(movies);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -18,8 +17,9 @@ const MovieList = () => {
   return (
     <div className="container">
       <FilterSearch />
-      <div className="row">
-        {movies.movies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
+      <div className="row filter-body">
+        {movies.loading ? <p>loading</p>
+          : movies.movies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
 
       </div>
     </div>

@@ -6,7 +6,6 @@ import { fetchMovie } from '../Redux/actions/createSearch';
 
 const SingleMovie = () => {
   const { movies } = useSelector((state) => state);
-  console.log(movies);
   const { id } = useParams();
   const dispatch = useDispatch();
 
@@ -18,7 +17,7 @@ const SingleMovie = () => {
 
   return (
     <div>
-      {!movies.movie ? <p>loading</p> : <SingleCard movie={movies.movie} />}
+      {!movies.movie ? <p>loading</p> : <div><SingleCard movie={movies.movie} /></div>}
     </div>
   );
 };
