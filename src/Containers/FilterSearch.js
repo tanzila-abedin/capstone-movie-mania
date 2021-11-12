@@ -24,26 +24,30 @@ const FilterSearch = () => {
 
   return (
     <>
-      <form id="searchForm">
-        <input
-          type="search"
-          value={title}
-          placeholder="Type to search.."
-          onChange={handleFilterResult}
-        />
-      </form>
+      <div className="mt-5 text-center">
+        <div className="container pb-5 form-bg">
+          <h1 className="display-4 mb-3 text-white">
+            {' '}
+            Search for a popular movie
+          </h1>
+          <form id="searchForm">
+            <input
+              type="search"
+              value={title}
+              placeholder="start typing to filter.."
+              onChange={handleFilterResult}
+              className="form-control"
+            />
+          </form>
+        </div>
+      </div>
 
-      <div className="user-list row">
-        {filterResult && filterResult.length > 0 ? (
+      <div className="row">
+        {
           filterResult.map((movie) => (
-            <div key={movie.id} className="">
-              <MovieCard key={movie.id} movie={movie} />
-            </div>
+            <MovieCard key={movie.id} movie={movie} />
           ))
-        )
-          : (
-            <h1>Look for movies to watch</h1>
-          )}
+}
       </div>
     </>
   );
