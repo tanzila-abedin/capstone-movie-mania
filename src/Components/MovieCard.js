@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const MovieCard = ({ movie }) => (
   <div className="col-md-3 mb-5">
-    <div className="card card-body bg-dark text-center h-100">
+    <div className="card card-body opacity text-center h-100">
       <img className="w-100 mb-2" src={movie.image} alt="Movie Cover" />
       <h5 className="text-light card-title">
         {movie.title}
@@ -12,7 +12,7 @@ const MovieCard = ({ movie }) => (
         {' '}
         {movie.year}
       </h5>
-      <Link className="btn btn-primary" to={`/singleMovie/${movie.id}`}>
+      <Link className="btn btn-warning" to={`/singleMovie/${movie.id}`}>
         Details
       </Link>
     </div>
