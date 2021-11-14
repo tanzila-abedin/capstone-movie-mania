@@ -1,11 +1,11 @@
 const Footer = () => (
-  <nav className="navbar navbar-expand-sm navHead navHead  fixed-bottom">
+  <nav className="navbar navbar-expand-sm navHead navHead  fixed-bottom" data-testid="footer">
     <div className="container text-center text-light d-flex justify-content-center">
-      Developed By:
+      Built By:
       <span className="text-warning font-weight-normal">
         Tanzila Abedin
       </span>
-      , Using movies data API
+      , Using
       {' '}
       <a
         href="https://imdb-api.com/"
@@ -15,6 +15,7 @@ const Footer = () => (
       >
         ImDBI
       </a>
+      API
     </div>
   </nav>
 );
