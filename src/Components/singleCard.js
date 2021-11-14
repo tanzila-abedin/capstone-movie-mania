@@ -7,7 +7,7 @@ const SingleCard = ({ movie }) => (
         <img className="imgBox" src={movie.image} alt="Movie Cover" />
       </div>
       <div className="col-md-7">
-        <h2 className="mb-3 title-text">{movie.fullTitle}</h2>
+        <h2 className="mb-3 title-text text-light">{movie.fullTitle}</h2>
         <ul className="list-group">
           <li className="list-group-item">
             <strong>Year:</strong>
