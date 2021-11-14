@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar snapshot testing 1`] = `
+<nav
+  className="navHead navbar navbar-light"
+>
+  <div
+    className="container"
+  >
+    <p
+      className="navbar-brand mb-0 text-warning nav-text font-weight-normal"
+    >
+      Movie Mania
+    </p>
+    <a
+      className="nav-text font-weight-normal"
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+  </div>
+</nav>
+`;
