@@ -17,7 +17,7 @@ const SingleMovie = () => {
 
   return (
     <div>
-      {!movies.movie ? <p>loading</p> : <div><SingleCard movie={movies.movie} /></div>}
+      {!movies.movie ? <p>loading</p> : <div className="pb-5"><SingleCard movie={movies.movie} /></div>}
     </div>
   );
 };
