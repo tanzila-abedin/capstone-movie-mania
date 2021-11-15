@@ -42,7 +42,7 @@ const FilterSearch = () => {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row filter-border mb-5">
         {
           filterResult.map((movie) => (
             <MovieCard key={movie.id} movie={movie} />
