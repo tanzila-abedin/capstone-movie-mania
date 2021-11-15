@@ -13,7 +13,7 @@ const Footer = () => (
         rel="noopener noreferrer"
         className="text-warning "
       >
-        ImDBI
+        IMDb
       </a>
       API
     </div>
