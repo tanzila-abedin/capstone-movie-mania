@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const MovieCard = ({ movie }) => (
   <div className="col-md-3 mb-5">
-    <div className="card card-body opacity text-center h-100">
+    <div className="card card-body opacity text-center h-100" data-testid="movieCard">
       <img className="w-100 mb-2" src={movie.image} alt="Movie Cover" />
       <h5 className="text-light card-title">
         {movie.title}
