@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`footer snapshot with react and redux 1`] = `
+<nav
+  className="navbar navbar-expand-sm navHead navHead  fixed-bottom"
+  data-testid="footer"
+>
+  <div
+    className="container text-center text-light d-flex justify-content-center"
+  >
+    Built By:
+    <span
+      className="text-warning font-weight-normal"
+    >
+      Tanzila Abedin
+    </span>
+    , Using
+     
+    <a
+      className="text-warning "
+      href="https://imdb-api.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      IMDb
+    </a>
+    API
+  </div>
+</nav>
+`;

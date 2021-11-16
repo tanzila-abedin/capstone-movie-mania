@@ -6,6 +6,7 @@ exports[`MovieCard snapshot with react and redux   1`] = `
 >
   <div
     className="card card-body opacity text-center h-100"
+    data-testid="movieCard"
   >
     <img
       alt="Movie Cover"

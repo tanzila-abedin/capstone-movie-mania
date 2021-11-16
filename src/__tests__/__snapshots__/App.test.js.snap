@@ -33,6 +33,7 @@ Array [
       >
         <h1
           className="display-4 mb-3 text-white"
+          data-testid="filterCard"
         >
            
           Search for a popular movie
@@ -51,7 +52,7 @@ Array [
       </div>
     </div>
     <div
-      className="row"
+      className="row filter-border mb-5"
     />
     <div
       className="row filter-body"
@@ -78,7 +79,7 @@ Array [
         rel="noopener noreferrer"
         target="_blank"
       >
-        ImDBI
+        IMDb
       </a>
       API
     </div>

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterCard snapshot with react and redux   1`] = `
+<div
+  className="mt-5 text-center"
+>
+  <div
+    className="container pb-5 form-bg"
+  >
+    <h1
+      className="display-4 mb-3 text-white"
+      data-testid="filterCard"
+    >
+       
+      Search for a popular movie
+    </h1>
+    <form
+      id="searchForm"
+    >
+      <input
+        className="form-control"
+        onChange={[MockFunction]}
+        placeholder="start typing to filter.."
+        type="search"
+        value="string"
+      />
+    </form>
+  </div>
+</div>
+`;
