@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
 import MovieCard from '../Components/MovieCard';
+import FilterCard from '../Components/FilterCard';
 
 const FilterSearch = () => {
   const { movies } = useSelector((state) => state);
@@ -24,30 +25,13 @@ const FilterSearch = () => {
 
   return (
     <>
-      <div className="mt-5 text-center">
-        <div className="container pb-5 form-bg">
-          <h1 className="display-4 mb-3 text-white">
-            {' '}
-            Search for a popular movie
-          </h1>
-          <form id="searchForm">
-            <input
-              type="search"
-              value={title}
-              placeholder="start typing to filter.."
-              onChange={handleFilterResult}
-              className="form-control"
-            />
-          </form>
-        </div>
-      </div>
-
+      <FilterCard title={title} handleFilter={handleFilterResult} />
       <div className="row filter-border mb-5">
         {
           filterResult.map((movie) => (
             <MovieCard key={movie.id} movie={movie} />
           ))
-}
+         }
       </div>
     </>
   );
