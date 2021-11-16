@@ -1,6 +1,6 @@
 # REACT AND REDUX CAPSTONE : Movie Mania
 
-I have built this React & Redux Capstone based on  a catalogue of statistics. Its a web app to fetch data from IMDB api to display list of popular movies and single page details about each of those movies. I have implemented  a search filter for the web app aswell.
+I have built this React & Redux Capstone based on a catalog of statistics. It's a web app to fetch data from IMDB API to display a list of popular movies and single page details about each of those movies. I have implemented a search filter for the web app as well.
 
 
 Click here to view live[ Movie  Mania](https://tanzila-movie-mania.herokuapp.com/).
