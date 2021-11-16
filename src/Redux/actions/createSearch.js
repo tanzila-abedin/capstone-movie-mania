@@ -23,9 +23,9 @@ const fetchMoviesFailure = (error) => ({
 });
 
 const fetchMovies = () => (dispatch) => {
-  dispatch(fetchMoviesRequest);
+  dispatch(fetchMoviesRequest());
   const url = 'https://imdb-api.com/en/API/MostPopularMovies/k_saglkr13';
-  axios.get(url).then((response) => {
+  return axios.get(url).then((response) => {
     const movies = response.data.items;
     dispatch(fetchMoviesSuccess(movies));
   }).catch((error) => {
