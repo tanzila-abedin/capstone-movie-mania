@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieCard snapshot with react and redux   1`] = `
+<div
+  className="col-md-3 mb-5"
+>
+  <div
+    className="card card-body opacity text-center h-100"
+    data-testid="movieCard"
+  >
+    <img
+      alt="Movie Cover"
+      className="w-100 mb-2"
+      src="empty"
+    />
+    <h5
+      className="text-light card-title"
+    >
+       
+      -
+       
+    </h5>
+    <a
+      className="btn btn-warning"
+      href="/singleMovie/undefined"
+      onClick={[Function]}
+    >
+      Details
+    </a>
+  </div>
+</div>
+`;

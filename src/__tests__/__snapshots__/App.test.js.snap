@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot with react and redux   1`] = `
+Array [
+  <nav
+    className="navHead navbar navbar-light"
+  >
+    <div
+      className="container"
+    >
+      <p
+        className="navbar-brand mb-0 text-warning nav-text font-weight-normal"
+      >
+        Movie Mania
+      </p>
+      <a
+        className="nav-text font-weight-normal"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </div>
+  </nav>,
+  <div
+    className="container"
+  >
+    <div
+      className="mt-5 text-center"
+    >
+      <div
+        className="container pb-5 form-bg"
+      >
+        <h1
+          className="display-4 mb-3 text-white"
+          data-testid="filterCard"
+        >
+           
+          Search for a popular movie
+        </h1>
+        <form
+          id="searchForm"
+        >
+          <input
+            className="form-control"
+            onChange={[Function]}
+            placeholder="start typing to filter.."
+            type="search"
+            value=""
+          />
+        </form>
+      </div>
+    </div>
+    <div
+      className="row filter-border mb-5"
+    />
+    <div
+      className="row filter-body"
+    />
+  </div>,
+  <nav
+    className="navbar navbar-expand-sm navHead navHead  fixed-bottom"
+    data-testid="footer"
+  >
+    <div
+      className="container text-center text-light d-flex justify-content-center"
+    >
+      Built By:
+      <span
+        className="text-warning font-weight-normal"
+      >
+        Tanzila Abedin
+      </span>
+      , Using
+       
+      <a
+        className="text-warning "
+        href="https://imdb-api.com/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        IMDb
+      </a>
+      API
+    </div>
+  </nav>,
+]
+`;
