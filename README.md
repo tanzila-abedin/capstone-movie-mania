@@ -3,7 +3,7 @@
 I have built this React & Redux Capstone based on a catalog of statistics. It's a web app to fetch data from IMDB API to display a list of popular movies and single page details about each of those movies. I have implemented a search filter for the web app as well.
 
 
-Click here to view live[ Movie  Mania](https://tanzila-movie-mania.herokuapp.com/).
+Click here to view live[ Movie  Mania](https://capstone-movie-mania-yvpc.vercel.app/).
 
 ## Built With
 - Javascript
